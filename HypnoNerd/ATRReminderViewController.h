@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 New Public Art Foundation. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface ATRReminderViewController : NSObject
+@interface ATRReminderViewController : UIViewController
 
 @end
