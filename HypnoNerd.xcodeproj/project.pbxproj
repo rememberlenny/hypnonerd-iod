@@ -15,6 +15,7 @@
 		03238D8719F4E385000BDF0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03238D8519F4E385000BDF0B /* LaunchScreen.xib */; };
 		03238D9319F4E385000BDF0B /* HypnoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03238D9219F4E385000BDF0B /* HypnoNerdTests.m */; };
 		03238D9E19F4E40F000BDF0B /* ATRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03238D9D19F4E40F000BDF0B /* ATRHypnosisView.m */; };
+		03238DA119F4E43F000BDF0B /* ATRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03238DA019F4E43F000BDF0B /* ATRHypnosisViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		03238D9219F4E385000BDF0B /* HypnoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdTests.m; sourceTree = "<group>"; };
 		03238D9C19F4E40F000BDF0B /* ATRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRHypnosisView.h; sourceTree = "<group>"; };
 		03238D9D19F4E40F000BDF0B /* ATRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRHypnosisView.m; sourceTree = "<group>"; };
+		03238D9F19F4E43F000BDF0B /* ATRHypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRHypnosisViewController.h; sourceTree = "<group>"; };
+		03238DA019F4E43F000BDF0B /* ATRHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRHypnosisViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		03238D7519F4E385000BDF0B /* HypnoNerd */ = {
 			isa = PBXGroup;
 			children = (
+				03238D9F19F4E43F000BDF0B /* ATRHypnosisViewController.h */,
+				03238DA019F4E43F000BDF0B /* ATRHypnosisViewController.m */,
 				03238D7A19F4E385000BDF0B /* AppDelegate.h */,
 				03238D9C19F4E40F000BDF0B /* ATRHypnosisView.h */,
 				03238D9D19F4E40F000BDF0B /* ATRHypnosisView.m */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03238D7F19F4E385000BDF0B /* ViewController.m in Sources */,
+				03238DA119F4E43F000BDF0B /* ATRHypnosisViewController.m in Sources */,
 				03238D7C19F4E385000BDF0B /* AppDelegate.m in Sources */,
 				03238D7919F4E385000BDF0B /* main.m in Sources */,
 				03238D9E19F4E40F000BDF0B /* ATRHypnosisView.m in Sources */,
