@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ATRHypnosisViewController.h"
+#import "ATRReminderViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,8 +23,14 @@
     
     ATRHypnosisViewController *hvc = [[ATRHypnosisViewController alloc] init];
     
-    self.window.rootViewController = hvc;
+    NSBundle *appBundle = [NSBundle mainBundle];
     
+    ATRReminderViewController *rvc = [[ATRReminderViewController alloc] initWithNibName:@"ATRReminderViewController"
+                                                                                  bundle:appBundle];
+    
+//    self.window.rootViewController = hvc;
+    self.window.rootViewController = rvc;
+                                      
     return YES;
 }
 
