@@ -7,12 +7,20 @@
 //
 
 #import "ATRHypnosisViewController.h"
+#import "ATRHypnosisView.h"
 
 @interface ATRHypnosisViewController ()
 
 @end
 
 @implementation ATRHypnosisViewController
+
+-(void)loadView {
+    CGRect frame = [UIScreen mainScreen].bounds;
+    ATRHypnosisView *backgroundView = [[ATRHypnosisView alloc] initWithFrame:frame];
+    
+    self.view = backgroundView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
