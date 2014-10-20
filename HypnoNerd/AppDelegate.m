@@ -21,12 +21,12 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    ATRHypnosisViewController *hvc = [[ATRHypnosisViewController alloc] init];
+    // ATRHypnosisViewController *hvc = [[ATRHypnosisViewController alloc] init];
     
     NSBundle *appBundle = [NSBundle mainBundle];
     
     ATRReminderViewController *rvc = [[ATRReminderViewController alloc] initWithNibName:@"ATRReminderViewController"
-                                                                                  bundle:appBundle];
+                                                                                 bundle:appBundle];
     
 //    self.window.rootViewController = hvc;
     self.window.rootViewController = rvc;
