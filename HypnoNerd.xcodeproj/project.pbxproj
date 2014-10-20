@@ -14,6 +14,7 @@
 		03238D8419F4E385000BDF0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03238D8319F4E385000BDF0B /* Images.xcassets */; };
 		03238D8719F4E385000BDF0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03238D8519F4E385000BDF0B /* LaunchScreen.xib */; };
 		03238D9319F4E385000BDF0B /* HypnoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03238D9219F4E385000BDF0B /* HypnoNerdTests.m */; };
+		03238D9E19F4E40F000BDF0B /* ATRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03238D9D19F4E40F000BDF0B /* ATRHypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		03238D8C19F4E385000BDF0B /* HypnoNerdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnoNerdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03238D9119F4E385000BDF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03238D9219F4E385000BDF0B /* HypnoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdTests.m; sourceTree = "<group>"; };
+		03238D9C19F4E40F000BDF0B /* ATRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRHypnosisView.h; sourceTree = "<group>"; };
+		03238D9D19F4E40F000BDF0B /* ATRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRHypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				03238D7A19F4E385000BDF0B /* AppDelegate.h */,
+				03238D9C19F4E40F000BDF0B /* ATRHypnosisView.h */,
+				03238D9D19F4E40F000BDF0B /* ATRHypnosisView.m */,
 				03238D7B19F4E385000BDF0B /* AppDelegate.m */,
 				03238D7D19F4E385000BDF0B /* ViewController.h */,
 				03238D7E19F4E385000BDF0B /* ViewController.m */,
@@ -222,6 +227,7 @@
 				03238D7F19F4E385000BDF0B /* ViewController.m in Sources */,
 				03238D7C19F4E385000BDF0B /* AppDelegate.m in Sources */,
 				03238D7919F4E385000BDF0B /* main.m in Sources */,
+				03238D9E19F4E40F000BDF0B /* ATRHypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
