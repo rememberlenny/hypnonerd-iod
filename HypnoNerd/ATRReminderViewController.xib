@@ -15,8 +15,14 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="lal-qY-sSi">
+                    <rect key="frame" x="0.0" y="139" width="600" height="162"/>
+                    <date key="date" timeIntervalSinceReferenceDate="435488249.78214198">
+                        <!--2014-10-20 08:57:29 +0000-->
+                    </date>
+                </datePicker>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vB7-zA-cjg">
-                    <rect key="frame" x="282" y="404" width="83" height="30"/>
+                    <rect key="frame" x="0.0" y="299" width="600" height="301"/>
                     <state key="normal" title="Remind me!">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -24,12 +30,6 @@
                         <action selector="addReminder:" destination="-1" eventType="touchUpInside" id="0dX-dX-a5j"/>
                     </connections>
                 </button>
-                <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="lal-qY-sSi">
-                    <rect key="frame" x="0.0" y="133" width="600" height="162"/>
-                    <date key="date" timeIntervalSinceReferenceDate="435488249.78214198">
-                        <!--2014-10-20 08:57:29 +0000-->
-                    </date>
-                </datePicker>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
         </view>
