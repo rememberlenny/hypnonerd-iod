@@ -28,7 +28,9 @@
     tabBarController.viewControllers = @[hvc, rvc];
     
     self.window.rootViewController = tabBarController;
-                                      
+   
+    [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil]];
+    
     return YES;
 }
 
