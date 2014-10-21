@@ -40,6 +40,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSLog(@"Hypnosis View loaded");
     // Do any additional setup after loading the view.
 }
 

@@ -16,6 +16,13 @@
 
 @implementation ATRReminderViewController
 
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    NSLog(@"Reminder View loaded");
+}
+
 -(IBAction)addReminder:(id)sender
 {
     NSDate *date = self.datePicker.date;
