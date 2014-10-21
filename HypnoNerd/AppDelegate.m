@@ -21,12 +21,8 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-     ATRHypnosisViewController *hvc = [[ATRHypnosisViewController alloc] init];
-    
-    NSBundle *appBundle = [NSBundle mainBundle];
-    
-    ATRReminderViewController *rvc = [[ATRReminderViewController alloc] initWithNibName:@"ATRReminderViewController"
-                                                                                 bundle:appBundle];
+    ATRHypnosisViewController *hvc = [[ATRHypnosisViewController alloc] init];
+    ATRReminderViewController *rvc = [[ATRReminderViewController alloc] init];
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     tabBarController.viewControllers = @[hvc, rvc];
